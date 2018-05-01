@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\pizza.core\pizza.core.csproj">
+      <Project>{E7F07347-7922-4582-9019-CC9681842B0A}</Project>
+      <Name>pizza.core</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>
